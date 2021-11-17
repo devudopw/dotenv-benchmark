@@ -65,20 +65,6 @@ update composer.json for specific package version
 ## Raw results
 
 ```bash
-| PHPBench (1.2.0) running benchmarks...
-| with configuration file: /tmp/phpbench.json
-| with PHP version 8.0.12, xdebug ❌, opcache ❌
-|
-| \DotenvBench
-|
-    benchJosegonzalez.......................I0 - Mo149.284μs (±0.00%)
-    benchVlucas@~2.0........................I0 - Mo85.049μs (±0.00%)
-    benchVlucas@dev.........................I0 - Mo403.774μs (±0.00%)
-    benchSymfony............................I0 - Mo144.216μs (±0.00%)
-    benchRfussien...........................I0 - Mo49.428μs (±0.00%)
-    benchDevcoderxyz........................I0 - Mo39.376μs (±0.00%)
-|
-| Subjects: 5, Assertions: 0, Failures: 0, Errors: 0
 | +-------------+-------------------+-----+-------+-----+----------+-----------+--------+
 | | benchmark   | subject           | set | revs  | its | mem_peak | mode      | rstdev |
 | +-------------+-------------------+-----+-------+-----+----------+-----------+--------+
