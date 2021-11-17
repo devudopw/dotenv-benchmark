@@ -72,7 +72,8 @@ update composer.json for specific package version
 | \DotenvBench
 |
     benchJosegonzalez.......................I0 - Mo149.284μs (±0.00%)
-    benchVlucas.............................I0 - Mo85.049μs (±0.00%)
+    benchVlucas@~2.0........................I0 - Mo85.049μs (±0.00%)
+    benchVlucas@dev.........................I0 - Mo403.774μs (±0.00%)
     benchSymfony............................I0 - Mo144.216μs (±0.00%)
     benchRfussien...........................I0 - Mo49.428μs (±0.00%)
     benchDevcoderxyz........................I0 - Mo39.376μs (±0.00%)
@@ -82,7 +83,8 @@ update composer.json for specific package version
 | | benchmark   | subject           | set | revs  | its | mem_peak | mode      | rstdev |
 | +-------------+-------------------+-----+-------+-----+----------+-----------+--------+
 | | DotenvBench | benchJosegonzalez |     | 10000 | 1   | 39.390mb | 149.284μs | ±0.00% |
-| | DotenvBench | benchVlucas       |     | 10000 | 1   | 1.027mb  | 85.049μs  | ±0.00% |
+| | DotenvBench | benchVlucas@~2.0  |     | 10000 | 1   | 1.027mb  | 85.049μs  | ±0.00% |
+| | DotenvBench | benchVlucas@dev   |     | 10000 | 1   | 1.258mb  | 403.774μs | ±0.00% |
 | | DotenvBench | benchSymfony      |     | 10000 | 1   | 1.057mb  | 144.216μs | ±0.00% |
 | | DotenvBench | benchRfussien     |     | 10000 | 1   | 1.027mb  | 49.428μs  | ±0.00% |
 | | DotenvBench | benchDevcoderxyz  |     | 10000 | 1   | 1.027mb  | 39.376μs  | ±0.00% |
