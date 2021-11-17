@@ -15,9 +15,7 @@
         "vlucas/phpdotenv": "@dev",
         "rfussien/dotenv": "@dev",
         "symfony/dotenv": "@dev",
+        "devcoder-xyz/php-dotenv": "@dev",
         "phpbench/phpbench": "@dev"
-    },
-    "scripts": {
-        "bench": "vendor/bin/phpbench run DotenvBench.php --report=default"
     }
 }

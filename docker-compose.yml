@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  benchmark:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    command: php vendor/bin/phpbench run DotenvBench.php --report=aggregate --revs=10000 --iterations=1
