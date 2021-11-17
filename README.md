@@ -1,6 +1,6 @@
 # php dotenv loaders benchmark
 
-This is a very small script to show the execution time of dotenv loaders for 10.000 executions with 1 iteration.
+This is a very small script to show the execution time of dotenv loaders for 10000 executions with 1 iteration.
 
 ## What is tested ?
 
@@ -9,9 +9,7 @@ Every loader has to reach the same point, so opening the .env file, parsing it a
 ## Where does my results come from ?
 
 But feel free to make yours:
-edit docker-composer.yml command
-revolutions=1000
-iterations=1
+edit docker-composer.yml command, revolutions=10000, iterations=1
 ```yaml
 version: '2'
 
